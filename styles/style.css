@@ -13,7 +13,7 @@ header, footer {
 
 /* Estilo básico para el menú */
 .menu {
-    background-color: #7f4d4d;   
+    background-color: #f0df25;   
     position: absolute;         
     top: 0;                   
     left: 0;                 
@@ -22,12 +22,22 @@ header, footer {
     list-style: none;
     text-decoration: none;
     margin: 0;
+    
 }
 
 .elemento_nav {
     display: inline-block;
     margin: 0 15px;
+    text-decoration: none;
     
+
+}
+
+nav ul li a:hover {
+    background-color: #222;      /* cambia el fondo al pasar el mouse */
+    color: #f0f0f0;              /* aclara el texto */
+    text-decoration: none;
+       /* agrega subrayado */
 }
 
 body {
@@ -35,10 +45,23 @@ body {
 }
 
 
+/*Estilos de inicio*/
+
+.texto_inicio {
+background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+/*Estilos de Survey*/
 form {
     background-color: #fff;
     padding: 15px;
     border: 1px solid #ccc;
+    text-align: center;
+    background-color: aquamarine;
 }
 
 button {
@@ -48,3 +71,13 @@ button {
     border: none;
     cursor: pointer;
 }
+
+.pie {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    position: static;
+}
+
