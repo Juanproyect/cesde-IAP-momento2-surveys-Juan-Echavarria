@@ -12,31 +12,22 @@ header, footer {
 }
 
 /* Estilo básico para el menú */
-nav {
-    background-color: #444;   /* color de fondo */
-    position: fixed;          /* menú fijo en la parte superior */
-    top: 0;                   /* pegado arriba */
-    left: 0;                  /* alineado a la izquierda */
-    width: 100%;              /* ocupa todo el ancho */
+.menu {
+    background-color: #7f4d4d;   
+    position: absolute;         
+    top: 0;                   
+    left: 0;                 
+    width: 100%;              
     padding: 10px 0;
-}
-
-nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;       /* centra los enlaces */
-}
-
-nav ul li {
-    display: inline-block;    /* coloca los enlaces en línea */
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
     text-decoration: none;
-    font-weight: bold;
+    margin: 0;
+}
+
+.elemento_nav {
+    display: inline-block;
+    margin: 0 15px;
+    
 }
 
 body {
